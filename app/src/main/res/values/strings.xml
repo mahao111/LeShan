@@ -5,5 +5,10 @@
     <string name="textview_sceondtitle">乐山乐水，好自在</string>
     <string name="food">美食</string>
     <string name="travle">旅游</string>
+    <string name="saoMai_Intro">   烧麦，又称烧卖、肖米、稍麦、稍梅、烧梅、鬼蓬头，在日本称作焼売，是形容顶端蓬松束折如花的形状，是一种以烫面为皮裹馅上笼蒸熟的小吃。形如石榴，洁白晶莹，馅多皮薄，清香可口</string>
+    <string name="tianPiYa_Intro">   甜皮鸭，又称卤鸭子，也叫甜皮卤鸭，沿用的是清朝御膳工艺。由民间发掘、改进，其卤水别具特色。具有色泽棕红、皮酥略甜、肉质细嫩、香气宜人的特点。</string>
+    <string name="maLaTang_Intro">  麻辣烫起源于岷江之滨四川省乐山市牛华镇。最初是船工和纤夫创造了麻辣烫这种简便易行而又独特的吃法。从成都到三峡的川江流域，由于水流湍急，纤夫成了必不可少的风景</string>
+    <string name="douFuNao_Intro">  豆腐脑一道著名的传统特色小吃，是利用大豆蛋白制成的高营养食品，多在晨间出售，常与豆腐花、豆花混用，依据各地口味不同，北方多爱咸食，而南方则偏爱甜味，亦有地区如四川等喜爱酸辣口味</string>
+    <string name="huangMengJI_Intro">  黄焖鸡米饭又叫香鸡煲、浓汁鸡煲饭，属于鲁菜系家常菜品，起源于山东省济南市。主要食材是鸡腿肉，配以青椒、土豆、香菇等焖制而成，味道美妙，具有肉质鲜美嫩滑的特点</string>
 
 </resources>

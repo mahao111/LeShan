@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="padding_rualr">10dp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+    <dimen name="text_endMargin">10dp</dimen>
 </resources>
