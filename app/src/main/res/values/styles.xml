@@ -7,4 +7,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="base_button" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:stateListAnimator">@xml/animation</item>
+
+    </style>
+
+    <style name="food_img">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="food_text">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginEnd">@dimen/text_endMargin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
 </resources>

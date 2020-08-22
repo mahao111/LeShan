@@ -26,21 +26,15 @@
 
                 <ImageView
                     android:id="@+id/image_saomai"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/imgb" />
+                    app:srcCompat="@drawable/imgb"
+                    style="@style/food_img" />
 
                 <TextView
                     android:id="@+id/text_saomai"
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="@dimen/text_endMargin"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/light"
-                    android:gravity="center"
-                    android:padding="@dimen/text_padding"
-                    android:text="@string/saoMai_Intro" />
+
+                    android:text="@string/saoMai_Intro"
+                    style="@style/food_text"
+                    android:onClick="launchIntroduce"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,20 +43,12 @@
 
                 <ImageView
                     android:id="@+id/image_doufunao"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
+                    style="@style/food_img"
                     app:srcCompat="@drawable/doufunao" />
 
                 <TextView
                     android:id="@+id/text_doufunao"
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="@dimen/text_endMargin"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/light"
-                    android:gravity="center"
-                    android:padding="@dimen/padding_rualr"
+                    style="@style/food_text"
                     android:text="@string/douFuNao_Intro" />
             </LinearLayout>
             <LinearLayout
@@ -72,20 +58,12 @@
 
                 <ImageView
                     android:id="@+id/image_tianPiYa"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
+                    style="@style/food_img"
                     app:srcCompat="@drawable/tianpiya" />
 
                 <TextView
                     android:id="@+id/text_tianPiYa"
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="@dimen/text_endMargin"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/light"
-                    android:gravity="center"
-                    android:padding="@dimen/padding_rualr"
+                    style="@style/food_text"
                     android:text="@string/tianPiYa_Intro" />
             </LinearLayout>
             <LinearLayout
@@ -95,20 +73,12 @@
 
                 <ImageView
                     android:id="@+id/image_maLaTang"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
+                    style="@style/food_img"
                     app:srcCompat="@drawable/malatang" />
 
                 <TextView
                     android:id="@+id/text_maLaTang"
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="@dimen/text_endMargin"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/light"
-                    android:gravity="center"
-                    android:padding="@dimen/padding_rualr"
+                    style="@style/food_text"
                     android:text="@string/maLaTang_Intro" />
         </LinearLayout>
             <LinearLayout
@@ -118,20 +88,12 @@
 
                 <ImageView
                     android:id="@+id/image_huangMengJi"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
+                    style="@style/food_img"
                     app:srcCompat="@drawable/huangmengji" />
 
                 <TextView
                     android:id="@+id/text_huangMengJi"
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="@dimen/text_endMargin"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/light"
-                    android:gravity="center"
-                    android:padding="@dimen/padding_rualr"
+                    style="@style/food_text"
                     android:text="@string/huangMengJI_Intro" />
             </LinearLayout>
         </LinearLayout>

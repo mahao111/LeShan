@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,23 +61,18 @@
 
             <Button
                 android:id="@+id/button_food"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@color/primaryColor"
+                style="@style/base_button"
                 android:onClick="launchFoodActivity"
                 android:text="@string/food"
-                android:textColor="@android:color/white" />
+
+          />
 
             <Button
                 android:id="@+id/button_travel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@color/primaryColor"
                 android:onClick="launchTravleActivtiy"
                 android:text="@string/travle"
-                android:textColor="@android:color/white" />
+                style="@style/base_button"
+             />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

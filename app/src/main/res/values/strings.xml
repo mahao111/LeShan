@@ -11,4 +11,23 @@
     <string name="douFuNao_Intro">  豆腐脑一道著名的传统特色小吃，是利用大豆蛋白制成的高营养食品，多在晨间出售，常与豆腐花、豆花混用，依据各地口味不同，北方多爱咸食，而南方则偏爱甜味，亦有地区如四川等喜爱酸辣口味</string>
     <string name="huangMengJI_Intro">  黄焖鸡米饭又叫香鸡煲、浓汁鸡煲饭，属于鲁菜系家常菜品，起源于山东省济南市。主要食材是鸡腿肉，配以青椒、土豆、香菇等焖制而成，味道美妙，具有肉质鲜美嫩滑的特点</string>
 
+    <string-array name="Title">
+        <item>金顶</item>
+        <item>报国寺</item>
+        <item>秀甲天下</item>
+        <item>滑雪场</item>
+    </string-array>
+    <string-array name="address"></string-array>
+    <string-array name="subtitle">
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+ </string-array>
+    <string-array name="imageResouce">
+        <item>@drawable/jingding</item>
+        <item>@drawable/baoguosi</item>
+        <item>@drawable/xiujiatianxia</item>
+        <item>@drawable/huaxuechang</item>
+    </string-array>
 </resources>
