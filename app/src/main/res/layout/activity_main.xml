@@ -40,13 +40,18 @@
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/styleb"
+                android:padding="10dp"
                 android:text="@string/textview_sceondtitle"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@color/primaryLightColor"
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 android:padding="10dp"
                 app:srcCompat="@drawable/c" />
 
@@ -57,7 +62,8 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:padding="@dimen/padding_rualr"
-                android:text="@string/textview_intro" />
+                android:text="@string/textview_intro"
+                tools:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
             <Button
                 android:id="@+id/button_food"
