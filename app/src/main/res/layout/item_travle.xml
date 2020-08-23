@@ -26,33 +26,35 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageView_item"
+            android:id="@+id/imageView_detail"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:adjustViewBounds="true"
-
             android:scaleType="fitXY"
+            android:transitionName="travle_image_transition"
             app:srcCompat="@drawable/jingding" />
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/title_detail"
             style="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/imageView_item"
+            android:layout_alignBottom="@id/imageView_detail"
             android:layout_marginBottom="1dp"
             android:padding="8dp"
             android:text="雷洞坪"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:transitionName="title_travle_transition" />
 
         <TextView
-            android:id="@+id/addres"
+            android:id="@+id/addres_detail"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imageView_item"
+            android:layout_below="@id/imageView_detail"
             android:padding="8dp"
             android:text="峨眉山市"
+            android:transitionName="travle_addres_transition"
             android:textColor="?android:textColorSecondary" />
 
         <TextView
@@ -60,10 +62,11 @@
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/addres"
+            android:layout_below="@id/addres_detail"
             android:layout_marginTop="0dp"
             android:padding="8dp"
-            android:text="美丽的雷洞坪，潺潺泉水" />
+            android:text="美丽的雷洞坪，潺潺泉水"
+            android:transitionName="travle_subtitle_transistion" />
 
 
     </RelativeLayout>

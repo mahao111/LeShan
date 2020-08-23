@@ -6,7 +6,13 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="titleTextColor">@color/primaryTextColor</item>
-
+        <item name="android:windowActivityTransitions">true</item>
+<item name="android:windowEnterTransition">
+    @transition/transition_a
+</item>
+        <item name="android:windowExitTransition">
+            @transition/transition_a
+        </item>
     </style>
 
     <style name="base_button" parent="Widget.AppCompat.Button">

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detial.TravleDetial">
+
+    <ImageView
+        android:id="@+id/imageView_detail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:transitionName="travle_image_transition"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/jingding" />
+
+    <TextView
+        android:id="@+id/title_detail"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView_detail"
+        android:layout_marginBottom="0dp"
+        android:padding="8dp"
+        android:text="雷洞坪"
+        android:transitionName="title_travle_transition"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <TextView
+        android:id="@+id/addres_detail"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView_detail"
+        android:padding="8dp"
+        android:text="峨眉山市"
+        android:transitionName="travle_addres_transition"
+        android:textColor="?android:textColorSecondary" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:transitionName="travle_subtitle_transistion"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addres_detail"
+        android:layout_marginTop="0dp"
+        android:padding="16dp"
+        android:text="111111111111" />
+
+
+
+
+</RelativeLayout>
