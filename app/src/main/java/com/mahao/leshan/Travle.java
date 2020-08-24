@@ -20,6 +20,7 @@ public class Travle extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travle);
         recyclerView = findViewById(R.id.recycler_view_travle);
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         items = new ArrayList<>();
 

@@ -28,15 +28,20 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
     <TextView
+        android:clickable="true"
         android:id="@+id/addres_detail"
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView_detail"
+        android:drawableRight="@drawable/ic_loaction"
+        android:drawablePadding="2dp"
+        android:drawableTint="@color/colorPrimary"
         android:padding="8dp"
-        android:text="峨眉山市"
+        android:text="四川省，峨眉山市，峨眉山某某某"
+        android:textColor="@color/colorPrimary"
         android:transitionName="travle_addres_transition"
-        android:textColor="?android:textColorSecondary" />
+        android:onClick="luanchMap"/>
 
     <TextView
         android:id="@+id/subTitle"
@@ -48,8 +53,6 @@
         android:layout_marginTop="0dp"
         android:padding="16dp"
         android:text="111111111111" />
-
-
 
 
 </RelativeLayout>

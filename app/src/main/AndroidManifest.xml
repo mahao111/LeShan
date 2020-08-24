@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".detial.TravleDetial" android:parentActivityName=".Travle"></activity>
+        <activity android:name=".Map.Map" android:label="导航地图"></activity>
+        <activity
+            android:name=".detial.TravleDetial"
+            android:label="旅游"
+            android:parentActivityName=".Travle" />
         <activity
             android:name=".Travle"
+            android:label="旅游"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Food"
