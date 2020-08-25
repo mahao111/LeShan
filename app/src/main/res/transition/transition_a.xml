@@ -2,4 +2,5 @@
 <transitionSet>
     <changeBounds></changeBounds>
     <changeImageTransform></changeImageTransform>
+    <fade></fade>
 </transitionSet>

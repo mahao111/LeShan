@@ -67,8 +67,11 @@ public class TravleAdapter extends RecyclerView.Adapter<TravleAdapter.MyViewHodl
         }
 
         void bindTo(TravleItem travleItem) {
-            title.setText(travleItem.getTitle());
-            addres.setText(travleItem.getAddress());
+            String address = travleItem.getAddress();
+            if (address.contains("峨眉山")){
+                addres.setText("峨眉山");
+            }
+title.setText(travleItem.getTitle());
             subTitle.setText(travleItem.getSubTitle());
            // imageView.setImageResource(travleItem.getImagesResource());
             Glide.with(context).load(travleItem.getImagesResource()).into(imageView);
@@ -82,6 +85,7 @@ public class TravleAdapter extends RecyclerView.Adapter<TravleAdapter.MyViewHodl
             TravleItem travleItem = items.get(getAdapterPosition());
             intent.putExtra("imageRes",travleItem.getImagesResource());
             intent.putExtra("title",travleItem.getTitle());
+            intent.putExtra("address",travleItem.getAddress());
             context.startActivity(intent, ActivityOptions.makeSceneTransitionAnimation((Activity) context,
                     new Pair<View, String>(imageView,"travle_image_transition"),
                     new Pair<View, String>(title,"title_travle_transition"),

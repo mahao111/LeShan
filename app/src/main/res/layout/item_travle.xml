@@ -17,7 +17,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="16dp"
     app:cardCornerRadius="20dp"
     app:cardElevation="10dp">
 
@@ -54,8 +54,8 @@
             android:layout_below="@id/imageView_detail"
             android:padding="8dp"
             android:text="峨眉山市"
-            android:transitionName="travle_addres_transition"
-            android:textColor="?android:textColorSecondary" />
+            android:textColor="?android:textColorSecondary"
+            android:transitionName="travle_addres_transition" />
 
         <TextView
             android:id="@+id/subTitle"

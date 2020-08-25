@@ -35,21 +35,15 @@ public class Travle extends AppCompatActivity {
 
     private void init() {
         String[] title = getResources().getStringArray(R.array.Title);
+        String[] address = getResources().getStringArray(R.array.address);
         String[] subtitle = getResources().getStringArray(R.array.subtitle);
         TypedArray images = getResources().obtainTypedArray(R.array.imageResouce);
         items.clear();
         for (int i = 0; i < title.length; i++) {
-            items.add(new TravleItem(title[i], "峨眉山", subtitle[i], images.getResourceId(i, 0)));
+            items.add(new TravleItem(title[i], address[i], subtitle[i], images.getResourceId(i, 0)));
 
         }
-        for (int i = 0; i < title.length; i++) {
-            items.add(new TravleItem(title[i], "峨眉山", subtitle[i], images.getResourceId(i, 0)));
 
-        }
-        for (int i = 0; i < title.length; i++) {
-            items.add(new TravleItem(title[i], "峨眉山", subtitle[i], images.getResourceId(i, 0)));
-
-        }
         images.recycle();
 
 

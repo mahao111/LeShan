@@ -23,7 +23,12 @@
         <item>秀甲天下</item>
         <item>滑雪场</item>
     </string-array>
-    <string-array name="address"></string-array>
+    <string-array name="address">
+        <item>四川,乐山市,峨眉山市,峨眉山景区,景点金顶</item>
+        <item>四川,乐山市,峨眉山市,峨眉山景区,景点报国寺</item>
+        <item>四川,乐山市,峨眉山市,峨眉山景区,景点秀甲天下</item>
+        <item>四川,乐山市,峨眉山市,峨眉山景区,景点滑雪场</item>
+    </string-array>
     <string-array name="subtitle">
         <item>日出、云海、佛光、圣灯没得不可一发</item>
         <item>日出、云海、佛光、圣灯没得不可一发</item>
