@@ -41,4 +41,22 @@
         <item>@drawable/xiujiatianxia</item>
         <item>@drawable/huaxuechang</item>
     </string-array>
+    <string-array name="Title_food">
+        <item>豆腐脑</item>
+        <item>甜皮鸭</item>
+        <item>黄焖鸡</item>
+        <item>麻辣烫</item>
+    </string-array>
+    <string-array name="subtitle_food">
+        <item>吃饱肚子才有力气减肥！！！</item>
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+        <item>日出、云海、佛光、圣灯没得不可一发</item>
+    </string-array>
+    <string-array name="imageResouce_food">
+        <item>@drawable/doufunao</item>
+        <item>@drawable/tianpiya</item>
+        <item>@drawable/huangmengji</item>
+        <item>@drawable/malatang</item>
+    </string-array>
 </resources>

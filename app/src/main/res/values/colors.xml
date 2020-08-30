@@ -7,4 +7,5 @@
     <color name="primaryLightColor">#69a9ff</color>
     <color name="primaryDarkColor">#0050cb</color>
     <color name="primaryTextColor">#fafafa</color>
+    <color name="secondary">#6c757d</color>
 </resources>
