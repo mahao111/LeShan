@@ -19,7 +19,7 @@
             />
     </Transition>
 
-    <ConstraintSet>
+    <ConstraintSet android:id="@+id/start">
         <Constraint
             android:id="@+id/title_detail"
             android:layout_width="wrap_content"

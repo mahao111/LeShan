@@ -3,23 +3,25 @@ package com.mahao.leshan.detial;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
-import com.mahao.leshan.Map.Map;
+
 import com.mahao.leshan.R;
 
 public class TravleDetial extends AppCompatActivity {
     private ImageView imageView;
     private TextView title_deltail;
     private TextView address_detial;
-    public static final String INTENT_EXTRA_ADDRESS = "com.mahao.leshan.detial.TravleDetial.intent_address";
+    String address;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,7 @@ public class TravleDetial extends AppCompatActivity {
         Intent intent = getIntent();
         int imageRes = intent.getIntExtra("imageRes", 0);
         String title = intent.getStringExtra("title");
-        String address = intent.getStringExtra("address");
+        address = intent.getStringExtra("address");
 
         Glide.with(TravleDetial.this).load(imageRes).into(new GlideDrawableImageViewTarget(imageView) {
             @Override
@@ -53,8 +55,16 @@ public class TravleDetial extends AppCompatActivity {
     }
 
     public void luanchMap(View view) {
-        Intent intent = new Intent(this, Map.class);
-        intent.putExtra(INTENT_EXTRA_ADDRESS, address_detial.getText().toString());
-        startActivity(intent);
+
+        Intent i1 = new Intent(Intent.ACTION_VIEW);
+// 地址解析
+        i1.setData(Uri.parse("baidumap://map/geocoder?src=andr.baidu.openAPIdemo&address=" + address));
+
+        if (address != null&&i1.resolveActivity(getPackageManager())!=null) {
+
+            startActivity(i1);
+        }else{
+            Toast.makeText(this,"请安装Baidu地图",Toast.LENGTH_SHORT).show();
+        }
     }
 }

@@ -10,8 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
-
 import java.util.ArrayList;
 
 
@@ -57,8 +55,7 @@ public class FoodAdapter  extends RecyclerView.Adapter<FoodAdapter.MyViewHolder>
             FoodItem foodItem = foodItems.get(getAdapterPosition());
             title_item_food.setText(foodItem.getTitle_food());
             sub_title_food.setText(foodItem.getSubtitle_food());
-          //  imageView.setImageResource(foodItem.getImageRes());
-            Glide.with(context).load(foodItem.getImageRes()).into(imageView);
+            imageView.setImageResource(foodItem.getImageRes());
         }
     }
 }
