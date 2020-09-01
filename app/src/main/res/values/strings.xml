@@ -16,7 +16,8 @@
     <string name="maLaTang_Intro">  麻辣烫起源于岷江之滨四川省乐山市牛华镇。最初是船工和纤夫创造了麻辣烫这种简便易行而又独特的吃法。从成都到三峡的川江流域，由于水流湍急，纤夫成了必不可少的风景</string>
     <string name="douFuNao_Intro">  豆腐脑一道著名的传统特色小吃，是利用大豆蛋白制成的高营养食品，多在晨间出售，常与豆腐花、豆花混用，依据各地口味不同，北方多爱咸食，而南方则偏爱甜味，亦有地区如四川等喜爱酸辣口味</string>
     <string name="huangMengJI_Intro">  黄焖鸡米饭又叫香鸡煲、浓汁鸡煲饭，属于鲁菜系家常菜品，起源于山东省济南市。主要食材是鸡腿肉，配以青椒、土豆、香菇等焖制而成，味道美妙，具有肉质鲜美嫩滑的特点</string>
-
+    <string name="intro_ems">  梵净山巍峨庞大，拔地通天，集石、树、云、风之极致，具天下名岳之特奇，方圆八百里净土， \n\n   贵州梵净山金顶风光 贵州梵净山金顶风光(20张) 莽林幽壑，人迹罕至，群峰耸峙，气象万千。早在明代，梵净山就开辟成为古佛道场，佛山一体，驰名全国，因此《铜仁府志》称它“不独为黔中之胜概，亦宇内壮观”。近一个多世纪以来，此山即以它的深藏厚蕴和灵异怪谲，引起域中海外的关注。在大自然日益遭到破坏的当今，梵净山仍以其原始、完整、平衡而自成体系的生态系统及千姿百态、峥嵘奇伟的山岳冰川融冻地貌，成为地球上一处绝妙无比的风景旅游圣地。梵净山巍峨庞大，拔地通天，集石、树、云、风之极致，具天下名岳之特奇，方圆八百里净土， 贵州梵净山金顶风光 贵州梵净山金顶风光(20张) 莽林幽壑，人迹罕至，群峰耸峙，气象万千。早在明代，梵净山就开辟成为古佛道场，佛山一体，驰名全国，因此《铜仁府志》称它“不独为黔中之胜概，亦宇内壮观”。近一个多世纪以来，此山即以它的深藏厚蕴和灵异怪谲，引起域中海外的关注。在大自然日益遭到破坏的当今，梵净山仍以其原始、完整、平衡而自成体系的生态系统及千姿百态、峥嵘奇伟的山岳冰川融冻地貌，成为地球上一处绝妙无比的风景旅游圣地。</string>
+    <!--旅游-->
     <string-array name="Title">
         <item>金顶</item>
         <item>报国寺</item>
@@ -31,7 +32,7 @@
     </string-array>
     <string-array name="subtitle">
         <item>日出、云海、佛光、圣灯没得不可一发</item>
-        <item>日出、云海、佛光、圣灯没得不可一发</item>
+        <item>烧香拜佛，请求神明保佑</item>
         <item>日出、云海、佛光、圣灯没得不可一发</item>
         <item>日出、云海、佛光、圣灯没得不可一发</item>
     </string-array>
@@ -41,6 +42,7 @@
         <item>@drawable/xiujiatianxia</item>
         <item>@drawable/huaxuechang</item>
     </string-array>
+<!--    美食-->
     <string-array name="Title_food">
         <item>豆腐脑</item>
         <item>甜皮鸭</item>
@@ -58,5 +60,14 @@
         <item>@drawable/tianpiya</item>
         <item>@drawable/huangmengji</item>
         <item>@drawable/malatang</item>
+    </string-array>
+<!--    美食详细-->
+    <string-array name="contetn_Food_Detial_Item">
+        <item>搅三搅^12^乐山市峨眉山市东门路搅三搅豆腐脑^9:00-20:30^15182289532</item>
+        <item>东门豆腐脑^12^乐山市峨眉山市东门路东门豆腐脑^9:00-20:30^15182289532</item>
+    </string-array>
+    <string-array name="image_Food_Detial_Iteam">
+        <item>@drawable/jiaoshanjiao_dfn</item>
+        <item>@drawable/goaji_dfn</item>
     </string-array>
 </resources>
