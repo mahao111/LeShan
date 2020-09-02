@@ -39,16 +39,6 @@ public class Food extends AppCompatActivity {
         TypedArray imageRes = getResources().obtainTypedArray(R.array.imageResouce_food);
         for (int i=0;i<title_food.length;i++){
             foodItems.add(new FoodItem(title_food[i],subtitl_food[i],imageRes.getResourceId(i,0)));
-
-        } for (int i=0;i<title_food.length;i++){
-            foodItems.add(new FoodItem(title_food[i],subtitl_food[i],imageRes.getResourceId(i,0)));
-
-        } for (int i=0;i<title_food.length;i++){
-            foodItems.add(new FoodItem(title_food[i],subtitl_food[i],imageRes.getResourceId(i,0)));
-
-        } for (int i=0;i<title_food.length;i++){
-            foodItems.add(new FoodItem(title_food[i],subtitl_food[i],imageRes.getResourceId(i,0)));
-
         }
         imageRes.recycle();
 

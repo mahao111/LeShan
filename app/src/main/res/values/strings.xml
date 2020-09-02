@@ -62,11 +62,21 @@
         <item>@drawable/malatang</item>
     </string-array>
 <!--    美食详细-->
-    <string-array name="contetn_Food_Detial_Item">
+<!--    豆腐脑-->
+    <string-array name="contetn_Food_Detial_dfn_Item">
         <item>搅三搅^12^乐山市峨眉山市东门路搅三搅豆腐脑^9:00-20:30^15182289532</item>
         <item>东门豆腐脑^12^乐山市峨眉山市东门路东门豆腐脑^9:00-20:30^15182289532</item>
     </string-array>
-    <string-array name="image_Food_Detial_Iteam">
+    <string-array name="image_Food_Detial_dfn_Iteam">
+        <item>@drawable/jiaoshanjiao_dfn</item>
+        <item>@drawable/goaji_dfn</item>
+    </string-array>
+    <!--    甜皮鸭-->
+    <string-array name="contetn_Food_Detial_tpy_Item">
+        <item>赵鸭子甜皮鸭^33^乐山市市中区春华路西段568号赵鸭子^9:00-19：00^15182289532</item>
+        <item>东门豆腐脑^12^乐山市峨眉山市东门路东门豆腐脑^9:00-20:30^15182289532</item>
+    </string-array>
+    <string-array name="image_Food_Detial_tpy_Iteam">
         <item>@drawable/jiaoshanjiao_dfn</item>
         <item>@drawable/goaji_dfn</item>
     </string-array>
