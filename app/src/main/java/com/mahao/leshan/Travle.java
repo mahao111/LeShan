@@ -43,6 +43,14 @@ public class Travle extends AppCompatActivity {
             items.add(new TravleItem(title[i], address[i], subtitle[i], images.getResourceId(i, 0)));
 
         }
+        for (int i = 0; i < title.length; i++) {
+            items.add(new TravleItem(title[i], address[i], subtitle[i], images.getResourceId(i, 0)));
+
+        }
+        for (int i = 0; i < title.length; i++) {
+            items.add(new TravleItem(title[i], address[i], subtitle[i], images.getResourceId(i, 0)));
+
+        }
 
         images.recycle();
 

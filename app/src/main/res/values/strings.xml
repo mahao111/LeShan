@@ -42,7 +42,9 @@
         <item>@drawable/xiujiatianxia</item>
         <item>@drawable/huaxuechang</item>
     </string-array>
-<!--    美食-->
+
+
+    <!--    美食-->
     <string-array name="Title_food">
         <item>豆腐脑</item>
         <item>甜皮鸭</item>
@@ -61,23 +63,54 @@
         <item>@drawable/huangmengji</item>
         <item>@drawable/malatang</item>
     </string-array>
-<!--    美食详细-->
-<!--    豆腐脑-->
+    <!--    美食详细-->
+    <!--    豆腐脑-->
     <string-array name="contetn_Food_Detial_dfn_Item">
         <item>搅三搅^12^乐山市峨眉山市东门路搅三搅豆腐脑^9:00-20:30^15182289532</item>
         <item>东门豆腐脑^12^乐山市峨眉山市东门路东门豆腐脑^9:00-20:30^15182289532</item>
+        <item>豆豆豆腐脑^15^乐山市市中区鹤翔路23号^10:00-22:00^15182289532</item>
+        <item>玖佲豆腐脑^15^乐山市市中区张公桥街84号^08:00-22:00^15182289532</item>
+      
     </string-array>
     <string-array name="image_Food_Detial_dfn_Iteam">
         <item>@drawable/jiaoshanjiao_dfn</item>
         <item>@drawable/goaji_dfn</item>
+        <item>@drawable/doudou_dfn</item>
+        <item>@drawable/jiuming_dfn</item>
     </string-array>
     <!--    甜皮鸭-->
     <string-array name="contetn_Food_Detial_tpy_Item">
         <item>赵鸭子甜皮鸭^33^乐山市市中区春华路西段568号赵鸭子^9:00-19：00^15182289532</item>
-        <item>东门豆腐脑^12^乐山市峨眉山市东门路东门豆腐脑^9:00-20:30^15182289532</item>
+        <item>纪六孃^35^乐山市市中区鹤翔路319号^8:00-20:30^15182289532</item>
+        <item>李四孃^36^乐山市市中区张公桥65号^8:00-20:30^15182289532</item>
+        <item>吴陆～吴鸭子^19^乐山市市中区鹤翔路^9:00-19:00^15182289532</item>
     </string-array>
     <string-array name="image_Food_Detial_tpy_Iteam">
-        <item>@drawable/jiaoshanjiao_dfn</item>
-        <item>@drawable/goaji_dfn</item>
+        <item>@drawable/zaosiliang</item>
+        <item>@drawable/jiliuliang</item>
+        <item>@drawable/lisiliang</item>
+        <item>@drawable/wuyazi</item>
+    </string-array>
+    <!--    黄闷鸡-->
+    <string-array name="contetn_Food_Detial_hmj_Item">
+        <item>开口笑芋儿烧鸡^35^乐山市市中区王浩儿街212号^0：00-20:30^15182289532</item>
+        <item>云顶酒楼^75^乐山市市中区嘉定中路151号对面^17:30-  20:30^15182289532</item>
+    </string-array>
+    <string-array name="image_Food_Detial_hmj_Iteam">
+        <item>@drawable/kaikouxiao_yesj</item>
+        <item>@drawable/yunding_jl</item>
+    </string-array>
+    <!--    麻辣烫-->
+    <string-array name="contetn_Food_Detial_mlt_Item">
+        <item>牛华•二毛麻辣烫^31^乐山市市中区306省道长青路35号^11：30-23：30^12:30-00：00^15182289532</item>
+        <item>牛华佳园麻辣烫^31^乐山市市中区四方街121号^16：00-01：00^15182289532</item>
+        <item>嘉州飘香麻辣烫^44^乐山市市中区张公桥43-35号^12：00-00：00^15182289532</item>
+        <item>嘉州飘香麻辣烫^50^乐山市市中区雪杉街613号^12：00-00：00^15182289532</item>
+    </string-array>
+    <string-array name="image_Food_Detial_mlt_Iteam">
+        <item>@drawable/ermao_mlt</item>
+        <item>@drawable/jiayuan_mlt</item>
+        <item>@drawable/jiazhou_mlt</item>
+        <item>@drawable/jiazhoupx_mlt</item>
     </string-array>
 </resources>

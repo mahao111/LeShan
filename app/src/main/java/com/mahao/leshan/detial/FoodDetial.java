@@ -35,8 +35,7 @@ public class FoodDetial extends AppCompatActivity {
         Intent intent = getIntent();
         String foodname = intent.getStringExtra("foodname");
 
-        String dfn = "豆腐脑";
-        String tian = "豆腐脑";
+
 
         switch (foodname) {
             case "豆腐脑":
@@ -46,6 +45,15 @@ public class FoodDetial extends AppCompatActivity {
             case "甜皮鸭":
                 loadRes(R.array.contetn_Food_Detial_tpy_Item,R.array.image_Food_Detial_tpy_Iteam);
                 break;
+
+            case "黄焖鸡":
+                loadRes(R.array.contetn_Food_Detial_hmj_Item,R.array.image_Food_Detial_hmj_Iteam);
+                break;
+            case "麻辣烫":
+                loadRes(R.array.contetn_Food_Detial_mlt_Item,R.array.image_Food_Detial_mlt_Iteam);
+                break;
+
+
 
         }
 
