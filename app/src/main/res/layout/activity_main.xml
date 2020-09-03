@@ -47,13 +47,10 @@
                 android:textColor="@color/primaryLightColor"
                 android:textSize="18sp" />
 
-            <ImageView
-                android:id="@+id/imageView6"
+            <VideoView
+                android:id="@+id/videoView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:padding="10dp"
-                app:srcCompat="@drawable/c" />
+                android:layout_height="400dp" />
 
             <TextView
                 android:id="@+id/textView17"
