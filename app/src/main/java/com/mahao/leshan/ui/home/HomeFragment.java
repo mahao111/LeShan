@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.mahao.leshan.Food;
 import com.mahao.leshan.R;
 import com.mahao.leshan.Travle;
@@ -53,8 +54,9 @@ public class HomeFragment extends Fragment {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(getActivity(), Travle.class));
-                    }
+
+                        //startActivity(new Intent(getActivity(), Travle.class));
+              }
                 }
         );
     }

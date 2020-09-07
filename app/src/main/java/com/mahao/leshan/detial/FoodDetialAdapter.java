@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.google.android.material.snackbar.Snackbar;
 import com.mahao.leshan.FoodAdapter;
 import com.mahao.leshan.R;
 
@@ -96,7 +97,8 @@ public class FoodDetialAdapter extends RecyclerView.Adapter<FoodDetialAdapter.Vi
 
                     context.startActivity(i1);
                 }else{
-                    Toast.makeText(context,"请安装Baidu地图",Toast.LENGTH_SHORT).show();
+                    Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 }
             });
         }
