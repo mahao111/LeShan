@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".MainActivity2"
     >
 
     <ScrollView
@@ -65,17 +65,17 @@
             <Button
                 android:id="@+id/click_button_food"
                 style="@style/base_button"
-                android:onClick="launchFoodActivity"
+
                 android:text="@string/food"
 
-          />
+                />
 
             <Button
                 android:id="@+id/button_travel"
-                android:onClick="launchTravleActivtiy"
+
                 android:text="@string/travle"
                 style="@style/base_button"
-             />
+                />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
