@@ -46,7 +46,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHo
 
         private TextView textView_title;
         private TextView textView_text;
-        private Button textView_button;
+        private TextView textView_button;
 
         public MyViewHodler(@NonNull View itemView) {
 

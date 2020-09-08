@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Help"
+            android:label="关于我们"
+            ></activity>
         <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
@@ -22,7 +25,7 @@
         <activity
             android:name=".detial.FoodDetial"
             android:label="美食"
-            android:parentActivityName=".Food"></activity>
+            android:parentActivityName=".Food" />
         <activity
             android:name=".detial.TravleDetial"
             android:label="旅游"
