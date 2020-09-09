@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sponsor"
-            android:label="赞助我们"></activity>
+        <activity android:name=".test.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sponsor"
+            android:label="赞助我们" />
         <activity
             android:name=".Help"
             android:label="关于我们" />
@@ -18,11 +26,7 @@
             android:name=".MainActivity2"
             android:label="乐山"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".detial.FoodDetial"
