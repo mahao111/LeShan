@@ -5,13 +5,18 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="乐山"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Sponsor"
+            android:label="赞助我们"></activity>
+        <activity
+            android:name=".Help"
+            android:label="关于我们" />
         <activity
             android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
+            android:label="乐山"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +27,7 @@
         <activity
             android:name=".detial.FoodDetial"
             android:label="美食"
-            android:parentActivityName=".Food"></activity>
+            android:parentActivityName=".Food" />
         <activity
             android:name=".detial.TravleDetial"
             android:label="旅游"
