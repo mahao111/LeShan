@@ -124,11 +124,4 @@
     <string name="menu_home">主页</string>
     <string name="menu_personla_center">个人中心</string>
     <string name="menu_slideshow">消息流</string>
-    <string name="company">CopyRight@ 2020 乐山旅游 All right reseved \n\n乐山旅游app科技有限公司</string>
-    <string-array name="item_message">
-        <item>今日特价商品-黄焖鸡｜大喇叭,听说XX做了一个超大活动，9.9元即可领回家!名额有限，快来参加吧! </item>
-        <item>今日特价商品-黄焖鸡｜大喇叭,听说XX做了一个超大活动，9.9元即可领回家!名额有限，快来参加吧! </item>
-        <item>今日特价商品-黄焖鸡｜大喇叭,听说XX做了一个超大活动，9.9元即可领回家!名额有限，快来参加吧! </item>
-        <item>今日特价商品-黄焖鸡｜大喇叭,听说XX做了一个超大活动，9.9元即可领回家!名额有限，快来参加吧! </item>
-    </string-array>
 </resources>
