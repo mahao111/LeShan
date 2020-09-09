@@ -55,7 +55,7 @@ public class HomeFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
 
-                        //startActivity(new Intent(getActivity(), Travle.class));
+                        startActivity(new Intent(getActivity(), Travle.class));
               }
                 }
         );
