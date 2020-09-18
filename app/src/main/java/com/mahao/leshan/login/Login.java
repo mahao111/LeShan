@@ -1,7 +1,9 @@
 package com.mahao.leshan.login;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -12,6 +14,8 @@ import android.widget.Toast;
 
 import com.mahao.leshan.MainActivity2;
 import com.mahao.leshan.R;
+import com.mahao.leshan.register.DatePicker;
+import com.mahao.leshan.register.Register;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -23,11 +27,14 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class Login extends AppCompatActivity {
-    static String name=null;
-    static String phone=null;
+    static String name = null;
+    static String phone = null;
     TextView textView_name;
     TextView textView_password;
     OkHttpClient client = new OkHttpClient();
+    public static final int REGISTER_ACTIVTIY = 2;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,15 +48,13 @@ public class Login extends AppCompatActivity {
         String s = textView_name.getText().toString();
         getUserInfo(s);
         String password = textView_password.getText().toString();
-        if(phone==null){
-            Toast.makeText(this,"没有此用户",Toast.LENGTH_SHORT).show();
-        }
-        else if (password.equals(phone)) {
+        if (phone == null) {
+
+        } else if (password.equals(phone)) {
 
             startActivity(new Intent(this, MainActivity2.class));
-        }
-        else{
-            Toast.makeText(this,"账户或密码不对",Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "账户或密码不对", Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -83,5 +88,27 @@ public class Login extends AppCompatActivity {
         }).start();
 
 
+    }
+
+    public void regiser(View view) {
+
+        Intent intent = new Intent(this, Register.class);
+       this.startActivityForResult(intent, REGISTER_ACTIVTIY);
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REGISTER_ACTIVTIY) {
+            if (resultCode == RESULT_OK) {
+                       //此处不能为ID 或id 否则无法取值
+                String id = data.getStringExtra("myid");
+
+            textView_name.setText(id);
+            }
+            if (resultCode == Activity.RESULT_CANCELED) {
+                //Write your code if there's no result
+
+            }
+        }
     }
 }

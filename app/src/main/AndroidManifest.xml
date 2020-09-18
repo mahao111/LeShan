@@ -11,9 +11,11 @@
         android:label="乐山"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".register.Register"></activity>
-        <activity android:name=".login.Login">
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".register.DatePicker" android:label="选择日期"></activity>
+        <activity android:name=".register.Register" android:label="加入我们" />
+        <activity android:name=".login.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +31,7 @@
         <activity
             android:name=".MainActivity2"
             android:label="乐山"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".detial.FoodDetial"
             android:label="美食"
