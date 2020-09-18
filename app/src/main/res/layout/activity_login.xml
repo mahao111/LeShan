@@ -78,7 +78,7 @@
                 android:drawablePadding="8dp"
                 android:ems="10"
                 android:hint="密码"
-                android:inputType="number"
+                android:inputType="numberPassword"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/login_name" />
