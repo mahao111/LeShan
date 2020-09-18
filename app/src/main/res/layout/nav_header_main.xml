@@ -16,13 +16,13 @@
         android:layout_marginTop="50dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/nav_header_desc"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/nav_header_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/portrait" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/nav_header_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -42,7 +42,8 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/light"
         android:text="15182289532@163.com"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/nav_header_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>

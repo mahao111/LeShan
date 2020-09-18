@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.mahao.leshan.domain.User;
+import com.mahao.leshan.login.Login;
 
 import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
@@ -24,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
      private  static final String  VEDIO_SAMPLE="tacoma_narrows";
 
     private AppBarConfiguration mAppBarConfiguration;
-private VideoView mVideoView;
+    private VideoView mVideoView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,14 +46,19 @@ private VideoView mVideoView;
 
             }
         });
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
+        TextView nav_header_name = navigationView.getHeaderView(0).findViewById(R.id.nav_header_name);
+        nav_header_name.setText(Login.user.getName());
+
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_personal_center, R.id.nav_slideshow)
                 .setDrawerLayout(drawer)
                 .build();
+
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);

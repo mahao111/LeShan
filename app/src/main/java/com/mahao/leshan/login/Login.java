@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.mahao.leshan.MainActivity2;
 import com.mahao.leshan.R;
+import com.mahao.leshan.domain.User;
 import com.mahao.leshan.register.DatePicker;
 import com.mahao.leshan.register.Register;
 
@@ -27,8 +28,8 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class Login extends AppCompatActivity {
-    static String name = null;
-    static String phone = null;
+   public static User user=new User();
+
     TextView textView_name;
     TextView textView_password;
     OkHttpClient client = new OkHttpClient();
@@ -48,9 +49,9 @@ public class Login extends AppCompatActivity {
         String s = textView_name.getText().toString();
         getUserInfo(s);
         String password = textView_password.getText().toString();
-        if (phone == null) {
+        if (user.getPhone() == null) {
 
-        } else if (password.equals(phone)) {
+        } else if (password.equals(user.getPhone())) {
 
             startActivity(new Intent(this, MainActivity2.class));
         } else {
@@ -78,9 +79,15 @@ public class Login extends AppCompatActivity {
                 try {
                     String s = Login.this.run("http://192.144.231.121:8080/demo/finduser?id=" + id);
                     JSONObject jsonObject = new JSONObject(s);
-                    Login.name = (String) jsonObject.get("name");
-                    Login.phone = (String) jsonObject.get("phone");
 
+                  String name=  (String) jsonObject.get("name");
+                    String phone=  (String) jsonObject.get("phone");
+                    String birth=  (String) jsonObject.get("birth");
+                    String sex=  (String) jsonObject.get("sex");
+                    Login.user.setName(name);
+                    Login.user.setPhone(phone);
+                    Login.user.setBirth(birth);
+                    Login.user.setSex(sex);
                 } catch (IOException | JSONException e) {
                     e.printStackTrace();
                 }
