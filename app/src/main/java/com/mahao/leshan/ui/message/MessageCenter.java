@@ -48,6 +48,12 @@ public class MessageCenter extends Fragment {
             String[] message = item[i].split("｜");
             items.add(new Message(message[0],message[1]));
         }
-
+        for (int i=0;i<item.length;i++){
+            String[] message = item[i].split("｜");
+            items.add(new Message(message[0],message[1]));
+        }   for (int i=0;i<item.length;i++){
+            String[] message = item[i].split("｜");
+            items.add(new Message(message[0],message[1]));
+        }
     }
 }

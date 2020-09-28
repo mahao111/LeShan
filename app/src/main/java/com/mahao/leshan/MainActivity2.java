@@ -49,6 +49,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
+        //通过navigationView 获取子级view  在子布局中寻找 textview
         TextView nav_header_name = navigationView.getHeaderView(0).findViewById(R.id.nav_header_name);
         nav_header_name.setText(Login.user.getName());
 

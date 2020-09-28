@@ -104,5 +104,15 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="favorite_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">15</item>
+
+        <item name="android:textSize">20sp</item>
+    </style>
+
 
 </resources>
